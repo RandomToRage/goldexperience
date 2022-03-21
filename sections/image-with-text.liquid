@@ -48,7 +48,6 @@
             {%- when 'heading' -%}
               <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
-                This is the title.
               </h2>
             {%- when 'caption' -%}
               <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
@@ -65,7 +64,6 @@
       </div>
     </div>
   </div>
-  <h5>Coming Soon</h5>
 </div>
 
 {% schema %}
